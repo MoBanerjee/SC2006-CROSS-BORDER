@@ -7,15 +7,15 @@ from utils import SAFETY_SETTTINGS
 from io import BytesIO
 
 st.set_page_config(
-    page_title="Chat To XYthing",
-    page_icon="🔥",
+    page_title="",
+    page_icon="",
     menu_items={
-        'About': "# Make by hiliuxg"
+       
     }
 )
 
 st.title('Upload Image And Ask')
-st.session_state.app_key="AIzaSyCF3LWQ2yb6HfocS3O4Nr-G6wlmsCVNp28"
+st.session_state.app_key=""
 genai.configure(api_key = st.session_state.app_key)
 model = genai.GenerativeModel('gemini-pro-vision')
 
@@ -30,9 +30,9 @@ def show_message(prompt, image, loading_str):
             byte_io = BytesIO()
             if image.mode == 'RGBA':
                 image = image.convert('RGB')
-            image.save(byte_io, format='JPEG')  # Save the PIL image to a bytes buffer in JPEG format
+            image.save(byte_io, format='JPEG')  
             byte_io.seek(0)
-            image_bytes = byte_io.read()  # Read the bytes buffer to get the binary data
+            image_bytes = byte_io.read()  
 
             for chunk in model.generate_content([prompt, image], stream = True, safety_settings = SAFETY_SETTTINGS):                   
                 word_count = 0
@@ -46,9 +46,9 @@ def show_message(prompt, image, loading_str):
                         word_count = 0
                         random_int = random.randint(5, 10)
         except genai.types.generation_types.BlockedPromptException as e:
-            st.markdown("It indicates the direction to the Tanjong Pagar MRT station in Singapore, which is 375 meters away from this sign, and the station code is EW15 on the East-West Line, an important part of the city's train system.")
+            st.error()
         except Exception as e:
-            st.markdown("It indicates the direction to the Tanjong Pagar MRT station in Singapore, which is 375 meters away from this sign, and the station code is EW15 on the East-West Line, an important part of the city's train system.")
+            st.error()
         message_placeholder.markdown(full_response)
         st.session_state.history_pic.append({"role": "assistant", "text": full_response})
 
