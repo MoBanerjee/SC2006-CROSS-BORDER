@@ -139,7 +139,7 @@ setDestText(e.target.value);
 
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyAHdDz4Q_16G8ipNhz1Fy9CU4x1uwkmw5k"
+      googleMapsApiKey=""
       libraries={['places']}
     >
       <GoogleMap
