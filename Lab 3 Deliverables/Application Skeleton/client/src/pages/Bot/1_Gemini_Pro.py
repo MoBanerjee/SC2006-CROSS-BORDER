@@ -1,5 +1,3 @@
-
-
 import google.generativeai as genai
 import streamlit as st
 import time
@@ -8,17 +6,17 @@ from utils import SAFETY_SETTTINGS
 
 
 st.set_page_config(
-    page_title="Chat To XYthing",
-    page_icon="🔥",
+    page_title="",
+    page_icon="",
     menu_items={
-        'About': "# Make By hiliuxg"
+      
     }
 )
 
-st.title("Chat To XYthing")
+st.title("")
 st.caption("a chatbot, powered by google gemini pro.")
 
-st.session_state.app_key="AIzaSyCF3LWQ2yb6HfocS3O4Nr-G6wlmsCVNp28"
+st.session_state.app_key=""
 
 if "history" not in st.session_state:
     st.session_state.history = []
