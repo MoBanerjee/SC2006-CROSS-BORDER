@@ -23,19 +23,23 @@ if "history" not in st.session_state:
 
 genai.configure(api_key = st.session_state.app_key)
 
+# Initialize the model and start a chat session with any existing history.
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history = st.session_state.history)
 
+# Sidebar button to clear chat. This helps in managing the chat session effectively.
 with st.sidebar:
     if st.button("Clear Chat Window", use_container_width = True, type="primary"):
         st.session_state.history = []
         st.rerun()
-    
+
+# Display the chat history.
 for message in chat.history:
     role = "assistant" if message.role == "model" else message.role
     with st.chat_message(role):
         st.markdown(message.parts[0].text)
 
+# Main chat input from the user.
 if "app_key" in st.session_state:
     if prompt := st.chat_input(""):
         prompt = prompt.replace('\n', '  \n')
