@@ -45,7 +45,7 @@ if "app_key" in st.session_state:
         prompt = prompt.replace('\n', '  \n')
         with st.chat_message("user"):
             st.markdown(prompt)
-
+        # Send and display the assistant's response.
         with st.chat_message("assistant"):
             message_placeholder = st.empty()
             message_placeholder.markdown("Thinking...")
