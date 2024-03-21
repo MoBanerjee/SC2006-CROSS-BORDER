@@ -51,7 +51,7 @@ const NearbyAmenities = () => {
      // Effect hook for initializing Google Maps script
     useEffect(() => {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAHdDz4Q_16G8ipNhz1Fy9CU4x1uwkmw5k&libraries=places`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=""&libraries=places`;
       script.async = true;
       script.onload = () => initializeMap();
       document.body.appendChild(script);
