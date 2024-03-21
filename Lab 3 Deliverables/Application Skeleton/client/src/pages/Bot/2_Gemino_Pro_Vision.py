@@ -20,7 +20,15 @@ genai.configure(api_key = st.session_state.app_key)
 model = genai.GenerativeModel('gemini-pro-vision')
 
 
+    """
+    Sends the user's prompt and the uploaded image to the Gemini Pro Vision model, displays a loading message,
+    and shows the model's response in the chat.
 
+    Parameters:
+    - prompt (str): The user's query about the uploaded image.
+    - image (PIL.Image): The uploaded image that the user queries about.
+    - loading_str (str): A temporary loading message shown while waiting for the model's response.
+    """
 def show_message(prompt, image, loading_str):
     with st.chat_message("assistant"):
         message_placeholder = st.empty()
@@ -52,6 +60,11 @@ def show_message(prompt, image, loading_str):
         message_placeholder.markdown(full_response)
         st.session_state.history_pic.append({"role": "assistant", "text": full_response})
 
+    """
+    Clears the chat history stored in the session state.
+    This function is typically called when the user uploads a new image,
+    resetting the conversation related to the previous image.
+    """
 def clear_state():
     st.session_state.history_pic = []
 
