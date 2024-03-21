@@ -1,0 +1,75 @@
+.TandC-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #F3F2E9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .TandC-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .TandC-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .TandC-content {
+   
+    overflow-y: auto;
+    height: auto; /* Adjust based on your content size */
+    max-height: 80vh; /* Maximum height before scrolling */
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  .TandC-content p,
+  .TandC-content section {
+    font-size: 10px;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .TandC-content h2 {
+    margin-top: 20px;
+    color: #2a2a2a;
+  }
+  
+  .TandC-content a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .TandC-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .TandC-last-updated {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .TandC-footer {
+    font-size: 0.9em;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Add any additional global styles or resets you may need */
+  /* For example, you might want to add styles for html, body, etc. */
+  

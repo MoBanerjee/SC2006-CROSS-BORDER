@@ -1,0 +1,17 @@
+.news-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .article {
+    width: 30%; /* Adjust based on the container size */
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive adjustments as needed */
+  @media (max-width: 768px) {
+    .article {
+      width: 100%;
+    }
+  }

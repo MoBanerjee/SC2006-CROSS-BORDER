@@ -1,0 +1,9 @@
+/* Sticky position - sticks at the top of the container when you scroll */
+.sticky-controls {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: white; /* Ensure the background isn't transparent */
+    padding: 10px;
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }

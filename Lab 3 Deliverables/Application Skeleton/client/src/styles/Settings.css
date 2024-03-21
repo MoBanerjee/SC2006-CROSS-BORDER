@@ -1,0 +1,35 @@
+.cross-border-container {
+    text-align: center;
+    background-color:#f6eed0!important;
+  }
+  
+  .buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .icon-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    background-color: #ff000066; /* Example color */
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .icon-button .icon {
+    font-size: 55px; /* Icon size */
+    margin-bottom: 10px;
+  }
+  
+  .icon-button span {
+    display: block;
+    margin-top: 10px;
+  }
+  
