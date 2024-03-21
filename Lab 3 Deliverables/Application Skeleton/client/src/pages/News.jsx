@@ -4,7 +4,7 @@ import { useUser } from '../contexts/UserContext';
 import { toast } from 'react-toastify';
 import defaultNews from "../assets/defaultnews.png";
 import defaultNews2 from "../assets/defaultnews2.png";
-const API_KEY = "9ac74291a9b946408e8247bf0bf7b03e";
+const API_KEY = "";
 const baseURL = "https://newsapi.org/v2/everything";
 
 /**
