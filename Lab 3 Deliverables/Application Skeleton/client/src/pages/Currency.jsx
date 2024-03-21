@@ -54,8 +54,8 @@ function CurrencyConverter() {
         url: 'https://currency-converter241.p.rapidapi.com/convert',
         params: { from: fromCurrency, to: toCurrency, amount: amount },
         headers: {
-          'X-RapidAPI-Key': '8a772231aamshb51aad46f08dee9p1b3105jsn222a34c99ca5',
-          'X-RapidAPI-Host': 'currency-converter241.p.rapidapi.com'
+          'X-RapidAPI-Key': '',
+          'X-RapidAPI-Host': ''
         }
       };
       const response = await axios.request(options);
