@@ -78,4 +78,4 @@ const evaluatePasswordStrength = (password) => {
     return { score, level: "Very Weak" };
 };
 
-  module.exports = regauth
+  module.exports = {regauth,evaluatePasswordStrength);
