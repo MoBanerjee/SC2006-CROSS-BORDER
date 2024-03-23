@@ -88,51 +88,6 @@ const Login = () => {
     </button>
   );
   
-  const handleTestSubmit = async (e) => {
-    e.preventDefault();
-    let username = e.target.username.value;
-    let password = e.target.password.value;
-
-    if (username.length > 0 && password.length > 0) {
-      const formData = {
-        username,
-        password,
-      };
-      try {
-        const response = await axios.post(
-          "http://localhost:3000/api/v1/giveToken",
-          formData
-        );
-       
-        updateToken((response.data.token))
-        toast.success("Login successful.Testing", {
-          closeButton: <CustomCloseButton />,
-          style: {
-            color: 'red', 
-            width:'auto'
-          }
-        });
-        navigate("/dashboard", { state: { username:username,comingFrom: "login" } });
-        //navigate("/changepassword");
-      } catch (err) {
-        console.log(err);
-        toast.error("Invalid login credentials. Please try again.", {
-          closeButton: <CustomCloseButton />,
-          style: {
-            color: 'red', 
-          }
-        });
-      }
-    } else {
-      toast.error("Please fill all inputs", {
-        closeButton: <CustomCloseButton />,
-        style: {
-          color: 'red', 
-        }
-      });
-    }
-  };
- 
   return (
     <div className="login-main">
       <div className="login-left">
@@ -145,8 +100,7 @@ const Login = () => {
           <div className="login-center">
             <h2>Welcome back!</h2>
             <p>Please enter your details</p>
-           {/*<form onSubmit={handleLoginSubmit}> */}
-            <form onSubmit={handleTestSubmit}>
+            <form onSubmit={handleLoginSubmit}> 
               <input type="username" placeholder="Username" name="username" />
               <div className="pass-input-div">
                 <input
