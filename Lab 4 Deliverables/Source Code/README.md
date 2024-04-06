@@ -148,9 +148,9 @@ sudo npm install
 sudo node app.js
 ```
 The command can be considered to be successful once you get this response in T1-:
-
+```plaintext
 Server is listening on port 3000
-
+```
 (You can ignore any other warnings in T1 that may come along with this response)
 
 Then in T2, run this code-:
@@ -159,6 +159,7 @@ sudo npm run dev
 ```
 The command can be considered to be successful once you get this response in T2-:
 
+```plaintext
 > react-app@0.0.0 dev<br>
 > vite
 
@@ -168,7 +169,8 @@ The command can be considered to be successful once you get this response in T2-
   ➜  Local:   http://localhost:5173/ <br>
   ➜  Network: use --host to expose<br>
   ➜  press h + enter to show help<br>
-   
+ ```
+  
 (You can ignore any other warnings in T2 that may come along with this response)
 
 ### Next, copy this URL "http://localhost:5173/" in your browser address bar and the App (hosted on localhost) will be successfully running with the Landing page visible
