@@ -27,7 +27,7 @@ Follow the steps below to create the files-:
 3. Open the firebase.config.js file in IDE. The path to the file is Source Code/client/src/pages/firebase.config.js. Complete the firebase 
    configuration credentials in the section highlighted below.
 
-   const firebaseConfig = {
+   const firebaseConfig = { \br
    apiKey: "",
    authDomain: "",
    projectId: "",
