@@ -15,6 +15,10 @@ News Viewer: Delivers a personalized news feed to keep users informed about the 
 
 AI Chatbot: Answers user queries, providing an interactive and helpful resource for information.<br>
 
+## Tech Stack Used
+
+<img width="547" alt="Screenshot 2024-04-07 at 2 36 05 AM" src="https://github.com/softwarelab3/2006-SCSD-SimpleOne/assets/115227638/2a40b05c-b46c-469e-86a6-a377209c653b">
+
 ## Setup instructions-:
 
 Copy this code block to your IDE terminal
