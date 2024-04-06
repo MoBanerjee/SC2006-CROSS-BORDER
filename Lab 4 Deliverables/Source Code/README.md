@@ -187,10 +187,10 @@ Currency-converter API-: https://rapidapi.com/airaudoeduardo/api/currency-conver
 
 ## Development Team
 
-Aishwarya Anand 
-Banerjee Mohor
-Chan Jie Ying Jolene 
-Chen Guan Zong Aaron
-Poonawala Mustafa Jabir
+Aishwarya Anand <br>
+Banerjee Mohor <br>
+Chan Jie Ying Jolene <br>
+Chen Guan Zong Aaron <br>
+Poonawala Mustafa Jabir <br>
 
 ### Prepared by Team SimpleOne at Nanyang Technological University for course SC2006 Software Engineering
