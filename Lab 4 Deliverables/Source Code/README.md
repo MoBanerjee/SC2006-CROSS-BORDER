@@ -24,7 +24,41 @@ AI Chatbot: Answers user queries, providing an interactive and helpful resource 
 
 ### Front-end was mainly made using React (version 18.2.0) and Back-end was mainly made using Node.js (version 21.4.0)
 
-## Setup instructions-:
+## Directory Structure
+```plaintext
+Lab 4 Deliverables/Source Code/
+├── client/
+│   ├── node_modules/
+│   ├── public/
+│   └── src/
+│       ├── assets/
+│       ├── contexts/
+│       ├── pages/
+│       ├── styles/
+│       ├── utils/
+│       ├── App.jsx
+│       ├── index.css
+│       ├── main.jsx
+│       ├── responsive.css
+│       └── tailwind.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js
+├── controllers/
+├── db/
+├── middleware/
+├── models/
+├── node_modules/
+├── routes/
+├── .env
+├── app.js
+├── package-lock.json
+├── package.json
+└── README.md
+```
+
+## Setup instructions
 
 Copy this code block to your IDE terminal
 
