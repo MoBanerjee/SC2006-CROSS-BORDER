@@ -1,4 +1,24 @@
-Setup instructions-:
+# Cross Border
+## Overview
+
+Cross Border is a web application developed by Team SimpleOne, aimed at improving the living and working experience of migrant workers in Singapore. By providing access to essential services and information, Cross Border serves as a user-centric platform that navigates users through daily life in Singapore, offering features like a currency exchange calculator, navigation routes, directory of nearby amenities, personalized news feed, and an AI chatbot for assistance.
+
+## Features
+
+User Registration and Profile Management: Allows users to create an account, manage their profile information, and personalize services. <br>
+
+Currency Converter: Provides currency exchange information between SGD and the currency of the user's home country.<br>
+
+Navigation and Amenities Finder: Offers detailed route information via public transport and locates nearby amenities like MRT stations, bus stops, eateries, shops, and hospitals.<br>
+
+News Viewer: Delivers a personalized news feed to keep users informed about the latest happenings in Singapore or their home country.<br>
+
+AI Chatbot: Answers user queries, providing an interactive and helpful resource for information.<br>
+
+## Setup instructions-:
+
+Copy this code block to your IDE terminal
+
 ```
 git clone https://github.com/softwarelab3/2006-SCSD-SimpleOne.git SCSDSimpleOneCrossBorder2006
 cd SCSDSimpleOneCrossBorder2006
