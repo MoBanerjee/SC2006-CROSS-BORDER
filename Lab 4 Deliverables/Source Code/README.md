@@ -51,7 +51,6 @@ Lab 4 Deliverables/Source Code/
 ├── models/
 ├── node_modules/
 ├── routes/
-├── .env
 ├── app.js
 ├── package-lock.json
 ├── package.json
