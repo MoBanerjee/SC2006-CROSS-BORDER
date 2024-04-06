@@ -169,7 +169,16 @@ The command can be considered to be successful once you get this response in T2-
 ### Next, copy this URL "http://localhost:5173/" in your browser address bar and the App (hosted on localhost) will be successfully running with the Landing page visible
 
 ## Appendix
-Source of API keys/Configuration credentials-:
+API Documentations and Source of API keys/Configuration credentials-:
 
 Mongodb-: https://www.mongodb.com/cloud/atlas/register?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_prosp-brand_gic-null_apac-sg_ps-all_desktop_eng_lead&utm_term=mongo%20database&utm_medium=cpc_paid_search&utm_ad=p&utm_ad_campaign_id=7854364247&adgroup=81978310976&cq_cmp=7854364247&gad_source=1&gclid=Cj0KCQjw5cOwBhCiARIsAJ5njubc1O2i4Kgp3TEFhi7aDbnvPdH22XjA5FeL6UVEwgTItIjvJRji1zQaAksMEALw_wcB
 
+AWS S3-: https://aws.amazon.com/pm/serv-s3/?gclid=Cj0KCQjw5cOwBhCiARIsAJ5njubaxT1o6P0QCLALESeQJ3ACpZIkDEHiF2u-OfBIxfUqgMQyenVFeYkaArYnEALw_wcB&trk=55ffcfa3-95d3-4418-9a79-62a64040b867&sc_channel=ps&ef_id=Cj0KCQjw5cOwBhCiARIsAJ5njubaxT1o6P0QCLALESeQJ3ACpZIkDEHiF2u-OfBIxfUqgMQyenVFeYkaArYnEALw_wcB:G:s&s_kwcid=AL!4422!3!536452732958!e!!g!!aws%20s3!11543056249!112002966709
+
+Firebase-: https://firebase.google.com/
+
+Google Places API-: https://developers.google.com/maps/documentation/places/web-service/overview
+
+Gemini API-: https://ai.google.dev/?gad_source=1&gclid=Cj0KCQjw5cOwBhCiARIsAJ5njuboxAVXySbu3orKNUolbT1A7EUjHwLbAZStb3QeF78IeOePkmyYpvwaAkcZEALw_wcB
+
+News API-: 
