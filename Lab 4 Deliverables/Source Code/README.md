@@ -75,14 +75,14 @@ Follow the steps below to create the files-:
    AWS_REGION="" <br>
    AWS_BUCKET_NAME="" <br>
 
-2. Open the API_KEYS.jsx file in IDE. The path to the file is "SCSDSimpleOneCrossBorder2006/Lab 4 Deliverables/Source Code/client/src/pages/API_KEYS.jsx". Replace the empty strings with   
+2. Open the API_KEYS.jsx file in IDE editor. The path to the file is "SCSDSimpleOneCrossBorder2006/Lab 4 Deliverables/Source Code/client/src/pages/API_KEYS.jsx". Replace the empty strings with   
    respective API keys.
 
    const NEWS_API_KEY=""; <br>
    const X_RapidAPI_Key=''; <br>
    const GOOGLE_MAPS_API_KEY=''; <br>
 
-3. Open the firebase.config.js file in IDE. The path to the file is "SCSDSimpleOneCrossBorder2006/Lab 4 Deliverables/Source Code/client/src/pages/firebase.config.js". Complete the firebase 
+3. Open the firebase.config.js file in IDE editor. The path to the file is "SCSDSimpleOneCrossBorder2006/Lab 4 Deliverables/Source Code/client/src/pages/firebase.config.js". Complete the firebase 
    configuration credentials in the section highlighted below.
 
    const firebaseConfig = { <br>
@@ -95,14 +95,14 @@ Follow the steps below to create the files-:
    measurementId: ""<br>
    };<br>
 
-4. Open the GEMINI_API_KEY.py file in IDE. The path to the file is "SCSDSimpleOneCrossBorder2006/Lab 4 Deliverables/Source Code/client/src/pages/Bot/geminichat/GEMINI_API_KEY.py". Replace the    
+4. Open the GEMINI_API_KEY.py file in IDE editor. The path to the file is "SCSDSimpleOneCrossBorder2006/Lab 4 Deliverables/Source Code/client/src/pages/Bot/geminichat/GEMINI_API_KEY.py". Replace the    
    empty string with Gemini API key.
 
    Gemini_API_KEY=""
 
 After obtaining all the API keys, continue executing the code segments below-:
 
-Ensure that your present working directory is SCSDSimpleOneCrossBorder2006
+Ensure that your present working directory is SCSDSimpleOneCrossBorder2006 <br>
 If yes, then run this code-:
 
 ```
