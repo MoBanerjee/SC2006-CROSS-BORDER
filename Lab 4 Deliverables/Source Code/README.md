@@ -19,6 +19,8 @@ AI Chatbot: Answers user queries, providing an interactive and helpful resource 
 
 <img width="547" alt="Screenshot 2024-04-07 at 2 36 05 AM" src="https://github.com/softwarelab3/2006-SCSD-SimpleOne/assets/115227638/2a40b05c-b46c-469e-86a6-a377209c653b">
 
+### Front-end was mainly made using React (version 18.2.0) and Back-end was mainly made using Node.js (version 21.4.0)
+
 ## Setup instructions-:
 
 Copy this code block to your IDE terminal
