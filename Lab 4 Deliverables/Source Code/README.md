@@ -94,15 +94,15 @@ sudo npm run dev
 ```
 The command can be considered to be successful once you get this response in T2-:
 
-> react-app@0.0.0 dev
+> react-app@0.0.0 dev<br>
 > vite
 
 
   VITE v5.2.4  ready in 339 ms
 
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h + enter to show help
+  ➜  Local:   http://localhost:5173/ <br>
+  ➜  Network: use --host to expose<br>
+  ➜  press h + enter to show help<br>
    
 (You can ignore any other warnings in T2 that may come along with this response)
 
