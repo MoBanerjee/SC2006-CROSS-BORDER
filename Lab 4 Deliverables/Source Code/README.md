@@ -20,22 +20,22 @@ Follow the steps below to create the files-:
 2. Open the API_KEYS.jsx file in IDE. The path to the file is Source Code/client/src/pages/API_KEYS.jsx. Replace the empty strings with   
    respective API keys.
 
-   const NEWS_API_KEY="";
-   const X_RapidAPI_Key='';
-   const GOOGLE_MAPS_API_KEY='';
+   const NEWS_API_KEY=""; <br>
+   const X_RapidAPI_Key=''; <br>
+   const GOOGLE_MAPS_API_KEY=''; <br>
 
 3. Open the firebase.config.js file in IDE. The path to the file is Source Code/client/src/pages/firebase.config.js. Complete the firebase 
    configuration credentials in the section highlighted below.
 
-   const firebaseConfig = { \br
-   apiKey: "",
-   authDomain: "",
-   projectId: "",
-   storageBucket: "",
-   messagingSenderId: "",
-   appId: "",
-   measurementId: ""
-   };
+   const firebaseConfig = { <br>
+   apiKey: "",<br>
+   authDomain: "",<br>
+   projectId: "",<br>
+   storageBucket: "",<br>
+   messagingSenderId: "",<br>
+   appId: "",<br>
+   measurementId: ""<br>
+   };<br>
 
 4. 
 
