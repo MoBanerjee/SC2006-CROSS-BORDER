@@ -1,0 +1,100 @@
+.currency-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 89vh; /* Adjust based on content */
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #F3F2E9;
+    border-radius: 20px;
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
+}
+
+.currency-main h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.currency-group-container {
+	display: flex;
+	justify-content: space-around; /* Provides equal spacing around items */
+	width: 100%; /* Utilizes the full width for better spacing */
+	margin-bottom: 20px;
+}
+  
+.form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; /* Adjust alignment for better structure */
+}
+  
+.currency-input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* Evenly spaces elements within */
+	width: 100%;
+}
+  
+.form-group input, .currency-main input[type="number"] {
+	flex-grow: 1;
+	padding: 12px; /* Increased padding for a more tactile feel */
+	margin: 5px 0;
+	border: 1px solid #ddd; /* Lighter border for subtlety */
+	border-radius: 8px; /* Rounded edges for modern appearance */
+	font-size: 16px; /* Slightly larger font size for readability */
+	width: auto; /* Allows input to adjust based on content */
+}
+
+.form-group2 {
+	display: flex;
+	align-items: center;
+}
+  
+.switch-button {
+	background-color: #ddd; /* Soft grey for neutrality */
+	border: none;
+	border-radius: 50%; /* Circular button for a distinct appearance */
+	padding: 8px 12px;
+	margin: 0 15px; /* Provides space between the switch button and inputs */
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+	transition: background-color 0.3s; /* Smooth transition for interaction */
+}
+  
+  .switch-button:hover {
+	background-color: #bbb; /* Darker on hover for visual feedback */
+  }
+  
+  .convert-button {
+	padding: 10px 0; /* Slightly reduced padding for a more elegant button */
+	width: 50%; /* Less width for a distinguished call to action */
+	margin: 20px auto; /* Centers the button and adds vertical spacing */
+	font-size: 18px; /* Larger text for importance */
+	transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for interactions */
+  }
+  
+  .convert-button:hover {
+	background-color: #e60000; /* Slightly darker on hover */
+	transform: translateY(-2px); /* Small lift effect */
+  }
+
+button:disabled {
+    background-color: #aaa;
+}
+
+.loading, .error {
+    color: #333;
+    font-size: 18px;
+}
+
+.loading {
+    color: #006400;
+}
+
+.error {
+    color: #ff0000;
+}
