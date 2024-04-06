@@ -175,10 +175,22 @@ Mongodb-: https://www.mongodb.com/cloud/atlas/register?utm_source=google&utm_cam
 
 AWS S3-: https://aws.amazon.com/pm/serv-s3/?gclid=Cj0KCQjw5cOwBhCiARIsAJ5njubaxT1o6P0QCLALESeQJ3ACpZIkDEHiF2u-OfBIxfUqgMQyenVFeYkaArYnEALw_wcB&trk=55ffcfa3-95d3-4418-9a79-62a64040b867&sc_channel=ps&ef_id=Cj0KCQjw5cOwBhCiARIsAJ5njubaxT1o6P0QCLALESeQJ3ACpZIkDEHiF2u-OfBIxfUqgMQyenVFeYkaArYnEALw_wcB:G:s&s_kwcid=AL!4422!3!536452732958!e!!g!!aws%20s3!11543056249!112002966709
 
-Firebase-: https://firebase.google.com/
+Firebase API-: https://firebase.google.com/
 
 Google Places API-: https://developers.google.com/maps/documentation/places/web-service/overview
 
 Gemini API-: https://ai.google.dev/?gad_source=1&gclid=Cj0KCQjw5cOwBhCiARIsAJ5njuboxAVXySbu3orKNUolbT1A7EUjHwLbAZStb3QeF78IeOePkmyYpvwaAkcZEALw_wcB
 
-News API-: 
+News API-: https://newsapi.org/
+
+Currency-converter API-: https://rapidapi.com/airaudoeduardo/api/currency-converter241
+
+## Development Team
+
+Aishwarya Anand 
+Banerjee Mohor
+Chan Jie Ying Jolene 
+Chen Guan Zong Aaron
+Poonawala Mustafa Jabir
+
+### Prepared by Team SimpleOne at Nanyang Technological University for course SC2006 Software Engineering
