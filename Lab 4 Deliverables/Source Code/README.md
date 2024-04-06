@@ -1,6 +1,6 @@
 # Cross Border
 
-<img width="558" alt="Screenshot 2024-04-07 at 2 42 28 AM" src="https://github.com/softwarelab3/2006-SCSD-SimpleOne/assets/115227638/abfbc891-dfb9-4263-acb6-a720c912213c">
+<img width="1000" alt="Screenshot 2024-04-07 at 2 42 28 AM" src="https://github.com/softwarelab3/2006-SCSD-SimpleOne/assets/115227638/abfbc891-dfb9-4263-acb6-a720c912213c">
 
 ## Overview
 
