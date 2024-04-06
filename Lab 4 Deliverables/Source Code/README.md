@@ -28,7 +28,6 @@ AI Chatbot: Answers user queries, providing an interactive and helpful resource 
 ```plaintext
 Lab 4 Deliverables/Source Code/
 ├── client/
-│   ├── node_modules/
 │   ├── public/
 │   └── src/
 │       ├── assets/
@@ -49,7 +48,6 @@ Lab 4 Deliverables/Source Code/
 ├── db/
 ├── middleware/
 ├── models/
-├── node_modules/
 ├── routes/
 ├── app.js
 ├── package-lock.json
