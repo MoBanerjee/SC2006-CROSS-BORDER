@@ -1,0 +1,99 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F3F2E9;
+  background-image: url('../assets/bgd.png'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  width: 600px;
+  height: 89vh; /* Ensure the container doesn't exceed the viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  .logo{
+    margin-top: 10px;
+  }
+  /* .logo-image{
+
+  } */
+  
+  /* The form container will act as the 'box' in the background */
+  .form-container {
+    height: 70vh;
+    background-color: #F3F2E9; /* A white background for the box */
+    padding: 40px;
+    border-radius: 8px; /* Rounded corners are common in modern design */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+    width: 500px;
+    border: 1px double black;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  /* Styling the heading */
+  .form-heading {
+    color: #333333; /* Dark color for the heading */ /* A larger font size for headings */
+    margin-bottom: 24px; /* Space after the heading */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .bigger{
+    font-size: 30px;
+    margin-top: 1px;
+  }
+
+  .smaller{
+    font-size: 20px;
+  }
+  /* Styles for the phone input field, using a class provided by 'react-phone-input-2' */
+  .phone-input {
+    width: 100%; /* Full width of the container */
+    margin-bottom: 24px; /* Space after the phone input field */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Button styling to match the Figma design */
+  .save-button {
+    background-color: #E24845; /* Assuming this is the button color you want */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width button is common in modern design */
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .save-button:hover {
+    background-color: red; /* A slightly darker shade on hover */
+  }
+
+.page-container .form-control{
+  width: inherit;
+}
+  

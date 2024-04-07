@@ -1,0 +1,113 @@
+.amenities-main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  width: 600px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Aligns children with space between them */
+  align-items: center; /* Vertically centers the children */
+  width: 100%; /* Full width of its parent */
+  padding: 0 50px; /* Padding on sides for spacing, adjust as needed */
+}
+
+.back-image {
+  width: 35px;
+  cursor: pointer;
+}
+
+.header-container .logo-image {
+  height: 75px; /* Adjust height as needed */
+  position: absolute; /* Position absolutely to center regardless of back button */
+  left: 50%; /* Start from the middle */
+  transform: translateX(-50%); /* Center exactly */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.header-container > div {
+  width: 35px; /* Ensures spacing is taken up as if there was an icon */
+  height: 35px; /* Adjust height to match back-image if necessary */
+}
+
+.sticky-controls {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  padding: 10px;
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.sticky-controls > label{
+  padding-left: 10px;
+}
+
+.amenities-main button{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #E24845;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.amenities-list {
+  margin-top: 15px;
+  max-height: 30vh;
+  overflow-y: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.amenity-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Adds space between each amenity */
+}
+
+.amenity-main {
+  display: flex;
+  gap: 20px;
+}
+
+.amenity-main > img {
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  object-fit: cover;
+}
+
+.amenity-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Adjust spacing between info */
+  flex-grow: 1; /* Ensure it fills the available space */
+}
+
+.amenity-reviews {
+  list-style: none;
+  padding: 0 20px;
+  width: 100%; /* Reviews take full width */
+}
+
+.amenity-reviews li {
+  text-align: left;
+  margin: 10px 0;
+  font-style: italic;
+}

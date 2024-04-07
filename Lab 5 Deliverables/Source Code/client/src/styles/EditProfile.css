@@ -1,0 +1,165 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #E24845;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  border: 1px solid #eaeaea;
+  position: relative;
+}
+
+.profile-center {
+  max-width: 80%;
+  overflow-y: auto;
+}
+
+.upload-container, .upload-container.drag-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  background-color: #19857b;
+  border-radius: 3px;
+  padding: 50px 0;
+}
+
+.upload-container.drag-over {
+  background-color: #abcdef;
+}
+
+.container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.hidden-input {
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.profile-content input[type="text"], 
+.profile-content input[type="password"], 
+.profile-content input[type="tel"], 
+.profile-content select, 
+.profile-content button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-content input[type="text"], 
+.profile-content input[type="password"], 
+.profile-content input[type="tel"], 
+.profile-content select {
+  border: 1px solid #ced4da;
+}
+
+.profile-content button {
+  background-color: #E24845;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.profile-content button:hover {
+  background-color: red;
+}
+
+.profile-content .profile-pic-container, 
+.profile-content .profile-pic-container img,
+.profile-content .fas {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.profile-content .profile-pic-container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #E24845;
+  object-fit: center;
+}
+
+.profile-content label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-trigger-button {
+  padding: 10px 20px;
+  background-color: #19857b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-trigger-button:hover {
+  background-color: #105;
+}
