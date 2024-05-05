@@ -20,7 +20,7 @@ AI Chatbot: Answers user queries, providing an interactive and helpful resource 
 
 ## Tech Stack Used
 
-<img width="547" alt="Screenshot 2024-04-07 at 2 36 05 AM" src="https://github.com/softwarelab3/2006-SCSD-SimpleOne/assets/115227638/2a40b05c-b46c-469e-86a6-a377209c653b">
+<img width="896" alt="Screenshot 2024-05-05 at 3 51 31 PM" src="https://github.com/MoBanerjee/SC2006-CROSS-BORDER/assets/115227638/f3b3ee7a-04fe-4ac3-bcce-e53e32311cd7">
 
 ### Front-end was mainly made using React (version 18.2.0) and Back-end was mainly made using Node.js (version 21.4.0)
 
