@@ -1,0 +1,109 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F3F2E9;
+  background-image: url('../assets/bgd.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* perspective: 1000px; */
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-main {
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  width: 450px;
+  padding: 50px 25px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
+
+.login-main:hover {
+  transform: scale(1.05);
+}
+
+.login-right-container {
+  height: 80vh;
+  width: 400px;
+  padding-left: 100px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.15);
+  transform: rotateY(0deg) rotateX(0deg);
+  transition: background 0.5s ease, transform 0.5s ease-in-out;
+}
+
+.login-center h2
+{
+  padding-top:25px;
+  font-size: 40px;
+}
+
+.login-center p
+{
+  padding-top: 10px;
+  padding-bottom:15px;
+  font-size: 18px;
+}
+
+.login-logo img {
+  width: 200px;
+  margin-top:10px;
+ 
+}
+
+.login-right-container:hover {
+  background: #F3F2E9;
+  transform: translateZ(20px);
+}
+
+input[type="username"],
+input[type="password"],
+input[type="text"] {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="username"]:focus,
+input[type="password"]:focus {
+  border-color: #E24845;
+  outline: none;
+}
+
+.login-center-buttons button {
+  background-color: #E24845;
+  color: white;
+  padding: 15px 0;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-main .pass-input-div svg {
+  position: absolute;
+  right: 35px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #E24845;
+  cursor: pointer;
+}

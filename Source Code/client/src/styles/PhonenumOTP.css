@@ -1,0 +1,189 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F3F2E9; /* Subtle background color */
+  background-image: url('../assets/bgd.png'); /* Ensure this path is correct in your project */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.OTP-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  max-width: 450px;
+  padding: 50px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
+
+.OTP-main:hover {
+  transform: scale(1.05);
+}
+
+/* .OTP-right-container-bg {
+  background-color: rgba(255,255,255);
+  opacity:10%;
+} */
+
+.OTP-right-container {
+  height: 80vh;
+  width: 400px;
+  padding-left: 100px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.15);
+  transform: rotateY(0deg) rotateX(0deg);
+  transition: background 0.5s ease, transform 0.5s ease-in-out;
+}
+
+.OTP-logo{
+  max-width: 100%;
+}
+
+.OTP-right-container .title{
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 15px;
+} 
+
+.otp{
+  display: block;
+  margin-top: 200px;
+}
+
+.register-block{
+  display: block;
+  margin-top: 200px;
+}
+
+.forgotpassword-block{
+  display: block;
+  padding-top: 150px;
+}
+
+.login-block{
+  display: block;
+  padding-top: 150px;
+}
+
+/* Styling for the main container */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Input styling for both phone number and OTP */
+.input {
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.input:focus {
+  border-color: #E24845;
+  outline: none;
+}
+
+/* Button styling for actions */
+#OTP-button {
+  background-color: #E24845; /* Theme color */
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#OTP-button:hover {
+  background-color: #cc3c3b; /* Slightly darker shade for interactive feedback */
+}
+
+/* OTP specific styles */
+.otp-input-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.otp-input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.otp-input:focus {
+  border-color: #E24845;
+}
+
+/* Timer and resend link styles */
+.timer,
+.resend-link {
+  font-size: 0.875rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.resend-link {
+  color: #E24845;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .section-container {
+    padding: 3rem;
+    max-width: 500px;
+  }
+
+  .card {
+    padding: 3rem;
+  }
+
+  .input,
+  .button {
+    font-size: 1.125rem;
+  }
+
+  .otp-input {
+    font-size: 2rem;
+  }
+}

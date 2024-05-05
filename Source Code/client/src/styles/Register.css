@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.register-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  max-width: 450px;
+  padding: 50px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
+
+.register-main:hover {
+  transform: scale(1.05);
+}
+
+.register-right-container {
+  height: 80vh;
+  width: 400px;
+  padding-left: 100px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.15);
+  transform: rotateY(0deg) rotateX(0deg);
+  transition: background 0.5s ease, transform 0.5s ease-in-out;
+}
+
+/* Logo styles */
+.register-logo img {
+  width: 250px; /* Adjusted size for better visual appeal */
+  margin-bottom: 2rem;
+}
+
+/* Headings and text styles */
+.register-center h2 {
+  color: #333;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.register-center p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Input fields styling */
+.register-main input[type='text'],
+.register-main input[type='password'] {
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.register-main input[type='text']:focus,
+.register-main input[type='password']:focus {
+  border-color: #E24845;
+  outline: none;
+}
+
+/* Toggle password visibility icons */
+.register-main .pass-input-div svg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.5rem;
+  color: #E24845;
+  cursor: pointer;
+}
+
+/* Button styles with transitions */
+.register-center-buttons button {
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #E24845;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.register-center-buttons button:hover {
+  background-color: #C13535;
+  transform: scale(1.05);
+}
+
+/* Link styles */
+.register-bottom-p a {
+  color: #E24845;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.register-bottom-p a:hover {
+  text-decoration: underline;
+  color: #C13535;
+}
+
+/* Advanced animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply the animation to all elements inside the container */
+.register-right-container * {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .register-right-container {
+    padding: 3rem;
+    max-width: 450px;
+  }
+
+  .register-center h2 {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,90 @@
+/* Base styles to ensure consistency */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F3F2E9; /* Light background for a soft design */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.TandC-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  border: 1px solid #eaeaea;
+  position: relative;
+}
+
+.TandC-header {
+  text-align: center;
+  margin-bottom: 40px; /* More space below the header */
+}
+
+.TandC-logo {
+  max-width: 320px; /* Bigger logo for more presence */
+  margin: 0 auto 20px; /* Centering the logo and adding space below */
+  display: block;
+}
+
+.TandC-content {
+  overflow-y: auto;
+  max-height: max-content;
+  width:500px;
+  height: 80vh; /* Maximum height before scrolling */
+  border-radius: 5px;
+  align-items: center;
+}
+
+.TandC-content h1{
+  text-align: center;
+}
+
+/* Styling the headings and content */
+.TandC-content h2 {
+  font-size: 28px; /* Larger font-size for headings */
+  font-weight: bold; /* Bold font for headings */
+  color: #E24845; /* Brand color for contrast and brand consistency */
+  text-align: center; /* Centering the headings */
+  margin: 30px 0; /* More space around headings */
+}
+
+.TandC-content p,
+.TandC-content section {
+  font-size: 18px; /* Slightly larger font for readability */
+  text-align: justify;
+  margin-bottom: 20px; /* More space between paragraphs */
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.TandC-content a {
+  color: #E24845; /* Use brand colors for links */
+  text-decoration: none;
+}
+
+.TandC-content a:hover {
+  text-decoration: underline;
+}
+
+.TandC-last-updated {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.TandC-footer {
+  font-size: 1em; /* Larger font size for footer for readability */
+  margin-top: 40px; /* More space above the footer */
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #eaeaea; /* Softer border color */
+}

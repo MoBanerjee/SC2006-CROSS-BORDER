@@ -1,0 +1,76 @@
+.dashboard-main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  width: 600px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 1);
+}
+
+.dashboard-main .logo-image{
+  width: auto;
+  height: 75px;
+}
+
+.dashboard-main .profile-picture-wrapper{
+  margin-left: 30px;
+}
+
+.dashboard-main .header-container {
+  margin: 25px 0px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Set for 2 columns layout */
+  gap: 2vh;
+  column-gap: 75px;
+  padding: 20px;
+}
+
+.dashboard-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-box .icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 150px;
+  width: 130px;
+  /* Hexagon shape */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  margin: 0;
+
+}
+
+.dashboard-box .icon-button img {
+  width: 80px; 
+}
+
+.icon-button span {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-picture-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  border-radius: 50%; /* Circular image */
+}

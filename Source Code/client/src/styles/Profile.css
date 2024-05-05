@@ -1,0 +1,133 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F3F2E9;
+  background-image: url('../assets/bgd.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  width: 450px;
+  padding: 50px;
+  box-sizing: border-box;
+  background: #F3F2E9;
+  border-radius: 20px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* .profile-main:hover {
+  transform: scale(1.05);
+} */
+
+.profile-right-container {
+  height: 80vh;
+  width: 400px;
+  padding-left: 100px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.15);
+  transform: rotateY(0deg) rotateX(0deg);
+  transition: background 0.5s ease, transform 0.5s ease-in-out;
+}
+
+.profile-logo img {
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.profile-center h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-main .profile-center {
+  text-align: center;
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-main input[type="text"], .profile-main select {
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 12px 15px;
+  margin: 0;
+  margin-bottom: 15px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus,
+select:focus {
+  border-color: #E24845;
+  box-shadow: 0 0 8px #E24845;
+}
+
+button {
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #E24845;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-bottom-p {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.profile-bottom-p a {
+  color: #E24845;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.profile-bottom-p a:hover {
+  color: #cc3a3b;
+  text-decoration: underline;
+}
+
+/* Animation keyframes */
+@keyframes logo-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-main {
+    flex-direction: column;
+  }
+
+  .profile-right {
+    width: 90%;
+  }
+}
