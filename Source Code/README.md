@@ -1,6 +1,7 @@
 # Cross Border
 
-<img width="1000" alt="Screenshot 2024-04-07 at 2 42 28 AM" src="https://github.com/SC2006-CROSS-BORDER/Source Code/assets/115227638/abfbc891-dfb9-4263-acb6-a720c912213c">![Uploading Screenshot 2024-05-05 at 10.52.56 AM.png…]()
+![Uploading Screenshot 2024-05-05 at 10.52.56 AM.png…]()
+
 
 
 ## Overview
