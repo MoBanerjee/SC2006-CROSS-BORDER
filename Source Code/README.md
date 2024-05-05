@@ -2,8 +2,6 @@
 
 ![Uploading Screenshot 2024-05-05 at 10.52.56 AM.png…]()
 
-
-
 ## Overview
 
 Cross Border is a web application developed by Team SimpleOne, aimed at improving the living and working experience of migrant workers in Singapore. By providing access to essential services and information, Cross Border serves as a user-centric platform that navigates users through daily life in Singapore, offering features like a currency exchange calculator, navigation routes, directory of nearby amenities, personalized news feed, and an AI chatbot for assistance.
@@ -28,7 +26,7 @@ AI Chatbot: Answers user queries, providing an interactive and helpful resource 
 
 ## Directory Structure
 ```plaintext
-Lab 4 Deliverables/Source Code/
+Source Code/
 ├── client/
 │   ├── public/
 │   └── src/
